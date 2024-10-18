@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+header{
+    height: 15vh;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.boxLogo{
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    
+    img{
+        width: 5vw;
+        @media (max-width: 1000px) {
+            width: 7.5vw;
+        }
+        @media (max-width: 700px) {
+            width: 10vw;
+        }
+    }
+
+    h1{
+        color: white;
+        font-size: 1.7vw;
+        @media (max-width: 1000px) {
+            font-size: 2.1vw;
+        }
+        @media (max-width: 700px) {
+            font-size: 2.6vw;
+        }
+    }
+}
+
+nav{
+    width: 40vw;
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        text-decoration: none;
+        font-size: 1.5vw;
+        @media (max-width: 1000px) {
+            font-size: 2vw;
+        }
+        @media (max-width: 700px) {
+            width: 100%;
+        }
+
+       a{
+        color: white;
+       }
+    }
+}
+
+.section1{
+    background-color: #FFD9EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    
+    img{
+        width: 20vw;
+    }
+
+    p{
+        width: 40vw;
+    }
+}
+
+.section2{
+    background-color: #FF69B4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vh;
+
+    img{
+        width: 30vw;
+    }
+
+    p{
+        width: 40vw;
+        color: white;
+    }
+}
+
+.section3{
+    background-color: #FFD9EC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+
+    img{
+        width: 15vw;
+    }
+}
+
+footer{
+    background-color: #FF69B4;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        text-decoration: none;
+        font-size: 1vw;
+        color: white;
+    }
+
+    .laco{
+        width: 5vw;
+    }
+    
+    .redes{
+        width: 3vw;
+    }
+}
+
